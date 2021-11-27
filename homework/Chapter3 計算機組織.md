@@ -1,11 +1,11 @@
 ## 目錄
-[3-1 中央處理器 (Central Processing Unit；CPU)]()  
-[3-2 主記憶體]()  
-[3-3 執行程式]()  
-[3-4 匯流排及介面]()  
-[3-5 輸出入周邊設備]()  
-[3-6 儲存裝置]()  
-[可參考影片]()  
+[3-1 中央處理器 (Central Processing Unit；CPU)](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#3-1-%E4%B8%AD%E5%A4%AE%E8%99%95%E7%90%86%E5%99%A8-central-processing-unitcpu)  
+[3-2 主記憶體](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#3-2-%E4%B8%BB%E8%A8%98%E6%86%B6%E9%AB%94)  
+[3-3 執行程式](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#3-2-%E4%B8%BB%E8%A8%98%E6%86%B6%E9%AB%94)  
+[3-4 匯流排及介面](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#3-4-%E5%8C%AF%E6%B5%81%E6%8E%92%E5%8F%8A%E4%BB%8B%E9%9D%A2)  
+[3-5 輸出入周邊設備](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#3-5-%E8%BC%B8%E5%87%BA%E5%85%A5%E5%91%A8%E9%82%8A%E8%A8%AD%E5%82%99)  
+[3-6 儲存裝置](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#3-6-%E5%84%B2%E5%AD%98%E8%A3%9D%E7%BD%AE)  
+[可參考影片](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter3%20%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B5%84%E7%B9%94.md#%E5%8F%AF%E5%8F%83%E8%80%83%E5%BD%B1%E7%89%87)  
 
 ## 3-1 中央處理器 (Central Processing Unit；CPU)  
 1. 是計算機的大腦，是一個電路極為複雜的晶片，用來執行儲存在記憶體的程式指令，控制數位資料的處理及運算。  
