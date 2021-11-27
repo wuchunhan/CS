@@ -1,4 +1,4 @@
-## [4-1](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter4%20%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1.md#4-1-%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1%E7%B0%A1%E4%BB%8B) 
+## [4-2](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter4%20%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1.md#4-2-%E5%90%84%E9%A1%9E%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1) 
 
 ## 4-1 作業系統簡介
 1. 作業系統 (Operating System , OS )是一個程式，負責管理電腦裡的硬體及周邊設備，扮演介於使用者與電腦硬體的中間人。
