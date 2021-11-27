@@ -1,11 +1,11 @@
 ## 目錄
-[2-1 資料型態]  
-[2-2 二進位表示法]  
-[2-3 各種進位表示法的轉換]  
-[2-4 整數表示法]  
-[2-5 浮點數表示法]  
-[2-6 ASCII 與 Unicode]  
-[課堂練習題目]  
+[2-1 資料型態](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#2-1-%E8%B3%87%E6%96%99%E5%9E%8B%E6%85%8B)  
+[2-2 二進位表示法](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#2-2-%E4%BA%8C%E9%80%B2%E4%BD%8D%E8%A1%A8%E7%A4%BA%E6%B3%95)   
+[2-3 各種進位表示法的轉換](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#2-3-%E5%90%84%E7%A8%AE%E9%80%B2%E4%BD%8D%E8%A1%A8%E7%A4%BA%E6%B3%95%E7%9A%84%E8%BD%89%E6%8F%9B)   
+[2-4 整數表示法](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#2-4-%E6%95%B4%E6%95%B8%E8%A1%A8%E7%A4%BA%E6%B3%95)   
+[2-5 浮點數表示法](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#2-5-%E6%B5%AE%E9%BB%9E%E6%95%B8%E8%A1%A8%E7%A4%BA%E6%B3%95)   
+[2-6 ASCII 與 Unicode](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#2-5-%E6%B5%AE%E9%BB%9E%E6%95%B8%E8%A1%A8%E7%A4%BA%E6%B3%95)   
+[課堂練習題目](https://github.com/SocJohnnyPing/CS/blob/main/homework/Chapter2%20%E6%95%B8%E4%BD%8D%E8%B3%87%E6%96%99%E8%A1%A8%E7%A4%BA%E6%B3%95.md#%E8%AA%B2%E5%A0%82%E7%B7%B4%E7%BF%92%E9%A1%8C%E7%9B%AE)   
 
 ## 2-1 資料型態
 1. 數位是什麼?
