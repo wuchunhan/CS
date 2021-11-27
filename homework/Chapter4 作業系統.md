@@ -22,7 +22,6 @@
 ![image](https://user-images.githubusercontent.com/91866985/143690163-bb701c7b-ba16-4771-90b6-9d2abdb48b32.png)
 
 6. 作業系統負責的工作主要有五大項目: 
-![image](https://user-images.githubusercontent.com/91866985/143690206-641f183c-22df-421a-8e9a-74d371491020.png)
 
 * 中央處理器管理:(排定優先次序):
    * CPU是整個計算機的核心，當多個程式同時發出CPU需求，作業系統要負責讓CPU充分發揮功能，提高使用效率。
