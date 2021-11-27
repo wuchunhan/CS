@@ -111,4 +111,9 @@
 ## 2-6 ASCII 與 Unicode
 ![alt 文字](https://upload.wikimedia.org/wikipedia/commons/c/cf/USASCII_code_chart.png "Wiki: ACIIcode")
 
+## 課堂練習題目:  
+![計算機概論-11 (1)](https://user-images.githubusercontent.com/91866985/143688363-ee611ed6-9fa3-445a-961e-e5d9ee9b186d.jpg)
+![計算機概論-10](https://user-images.githubusercontent.com/91866985/143688372-ab760706-aa41-488f-97bb-98e049707031.jpg)
+
+
 
