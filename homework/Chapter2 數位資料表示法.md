@@ -48,16 +48,65 @@
 *【面臨的問題】:*  
    * 有兩個0，+0(000...00)和-0(100...00)
    * 正數和負數的運算(例如加和減)並不直接
+![image](https://user-images.githubusercontent.com/91866985/143687898-f2a148c5-cd62-44f4-a44f-001a4192cab1.png)
+
+
 
 3. 補數表示法
+* 補數的概念是指要補多少才滿，例如: 793元還差207元就可「補」成1000元。
 
 4. 一補數表示法
+* 最左邊的位元當作符號位元(0為正數；1為負數)；其餘的n-1個位元則用來表示正負符號外的數值大小。
+* 正數表示方式與「帶正負符號大小表示法」相同，但負數不同。
+![image](https://user-images.githubusercontent.com/91866985/143687981-b26902b6-2a5f-440e-b054-cf53fdf2a98c.png)
+
+例題(一):  
+![image](https://user-images.githubusercontent.com/91866985/143688008-fc5c5dc1-845a-4a1c-88d4-a32459a82714.png)
+
+例題(二):  
+![image](https://user-images.githubusercontent.com/91866985/143688030-9711c4cb-bbbc-4a61-80bb-dc91c9bf3b9c.png)
+
+*【面臨的問題】:*  
+   * 有兩個0，00000000和11111111都是0
+   * 正數和負數的運算(例如加和減)並不直接
 
 5. 二補數表示法
+* 最左邊的位元當作符號位元(0為正數；1為負數)；其餘的n-1個位元則用來表示正負符號外的數值大小。
+* 正數表示方式與「帶正負符號大小表示法」相同，但負數不同。
+![image](https://user-images.githubusercontent.com/91866985/143688070-a793549a-9769-420c-8b52-6cbdae669ab0.png)
+
+例題(一):  
+![image](https://user-images.githubusercontent.com/91866985/143688091-28c75555-d37e-469e-8fe1-8b9b5fa0fd30.png)
+
+例題(二):  
+![image](https://user-images.githubusercontent.com/91866985/143688099-9ebf79d1-0c4c-4cee-8de1-50b59f78bdcd.png)
+
 
 6. 二補數的加法
+   1. 將所加的兩個數之二補數位元對齊
+   2. 從最右邊的位元開始加起，若相對位置的位元相加為二或以上，則有進位。
+   3. 若有進位，則往左邊傳遞；若最左邊位元相加有進位，則忽略這個進位。
+   4. 兩正數相加後，若最左邊符號位元為1，則有**溢位(overflow)**；兩負數相加後，若最左邊符號位元為0，則有**溢位(overflow)**
+
+例題(一):  
+![image](https://user-images.githubusercontent.com/91866985/143688164-2494c9ad-b1f3-4788-9f21-66885e968ee1.png)
+
+例題(二):  
+![image](https://user-images.githubusercontent.com/91866985/143688174-f9f2f62f-f273-4d0e-a885-29816ba5b287.png)
+
 
 ## 2-5 浮點數表示法
+* 浮點數表示法是電腦表示實數最常用的方式
+* **浮動小數點:** 「536.87」表示成科學記號為「5.3687×102」
+* 在有限位元數的情況下，浮動小數點所能表示的數值範圍比固定小數點位置的方式大許多
+* 1.0110100011 × 2(4次方) = 小數點右邊的0110100011稱為**尾數(mantissa)**，而**指數(exponent)**為4
+* 浮點數表示法以**IEEE 754標準**為主
+* 單倍/雙倍精準數:
+   * 單倍精準數：以1個位元表示符號；8個位元表示指數；23個位元表示尾數部分。
+   * 雙倍精準數：以1個位元表示符號；11個位元表示指數；52個位元表示尾數部分。
+![image](https://user-images.githubusercontent.com/91866985/143688274-7e5ff31c-4979-4ca4-ba1b-a0df6145f9d4.png)
+
+
 
 ## 2-6 ASCII 與 Unicode
 ![alt 文字](https://upload.wikimedia.org/wikipedia/commons/c/cf/USASCII_code_chart.png "Wiki: ACIIcode")
