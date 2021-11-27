@@ -1,4 +1,11 @@
-* 3C = Computer + Communication + Consumer electronics  
+## 目錄
+[3-1 中央處理器 (Central Processing Unit；CPU)]()  
+[3-2 主記憶體]()  
+[3-3 執行程式]()  
+[3-4 匯流排及介面]()  
+[3-5 輸出入周邊設備]()  
+[3-6 儲存裝置]()  
+[可參考影片]()  
 
 ## 3-1 中央處理器 (Central Processing Unit；CPU)  
 1. 是計算機的大腦，是一個電路極為複雜的晶片，用來執行儲存在記憶體的程式指令，控制數位資料的處理及運算。  
@@ -123,13 +130,15 @@
 
 
 ## 3-5 輸出入周邊設備
+(略)  
 
 ## 3-6 儲存裝置
 * [傳統硬碟 vs. 固態硬碟](https://buzzorange.com/techorange/2018/01/19/hdd-vs-ssd/)
-
 
 ## 可參考影片:
 * [Inside Your Computer](https://www.youtube.com/watch?v=Q2hmuqS8bwM)
 * [Inside your computer - Bettina Bair](https://www.youtube.com/watch?v=AkFi90lZmXA)
 * [Computer Basics: Getting to Know Laptop Computers](https://www.youtube.com/watch?v=6LIv2ocJXRk&list=PLpQQipWcxwt-xhJVJs7MCcU-XzWYVsTQt&index=8)
-* [How computer memory works - Kanawat Senanan](https://www.youtube.com/watch?v=p3q5zWCw8J4)
+* [How computer memory works - Kanawat Senanan](https://www.youtube.com/watch?v=p3q5zWCw8J4)  
+
+* 3C = Computer + Communication + Consumer electronics  
