@@ -65,19 +65,71 @@
    * RAM一旦關機後， 資料就不見了。
    * SRAM (靜態隨機存取記憶體) & DRAM (動態隨機存取記憶體) :  
       * SRAM (靜態隨機存取記憶體) :  
+         * 以正反器(flip-flop gate)儲存資料。
+         * 取名「靜態」的原因是因為只要電源維持住， 並不需要做更新(refresh)的動作。
+         * 速度較快，價錢也貴些。
+
       * DRAM (動態隨機存取記憶體) :
+         * 以電容器(capacitor)儲存資料。
+         * 因電容器會隨時間逐漸失去電容量，因此須動態週期性地更新(refresh)內容，故取名為動態隨機存取記憶體。
+         * 速度較慢，但價錢便宜許多。
+         * 
+      * 在相同的晶片面積下，DRAM容量大於SRAM四倍以上；但在速度上，SRAM卻是比DRAM快四倍以上。
+
 
 * ROM (唯讀記憶體)
    * 可隨機讀取資料，使用者不可改寫
+   * ROM在關機後，仍可維持資料內容，可用來儲存開機使用的程式。
+   * PROM(可程式化的唯讀記憶體):
+      * 可讓使用者儲存所需的程式，一旦儲存後，就不可再改寫。
 
+   * EPROM(可擦拭及程式化的唯讀記憶體):
+      * 可以改寫，但必須以紫外線照射來擦拭。
 
-
-
+   * EEPROM(可以電子擦拭及程式化的唯讀記憶體):
+      * 可直接從電腦進行改寫，最為方便，廣泛應用於BIOS晶片及快閃記憶體。
 
 ## 3-3 執行程式
+* 擷取指令：CPU執行時，先由控制單元擷取(fetch)所要執行的指令，放在指令暫存器。
+* 解碼指令：所抓到的東西都是二位元字串，每個指令可能包括指令動作及資料，當抓到指令時，可由查表法進行解碼(decode)動作。
+* 執行指令：當找到該指令對應的運算動作，就交給算術邏輯單元來執行(execute)，執行完所得的結果再由控制單元協助儲存回記憶體。
+* 生產線技術:
+   * 為增進CPU效率，當算術邏輯單元正在執行時，控制單元會開始進行下一個擷取指令的動作
+   * 如同汽車工廠的生產線(pipeline)
+   * 將CPU執行程式的流程，以生產線方式進行，稱為生產線技術(pipelining)，可大大提升CPU的執行效率
+![image](https://user-images.githubusercontent.com/91866985/143689389-9f7e9f1b-d465-4bbf-aa8d-6f7e210e29eb.png)
+
 
 ## 3-4 匯流排及介面
+1. 電腦主機板上用來傳輸電子訊號的傳輸工具，稱為匯流排(bus)，包括：  
+   * 系統匯流排：負責CPU與記憶體間的資料傳送。
+   * 擴充匯流排：保留一些連接給使用者彈性使用。
+   
+2. 匯流排一次所能傳輸的資料量，稱為 **匯流排寬度(buswidth)** ，它會和CPU每次所能處理的位元數相容。 
+ 
+3. 連接埠(port): 外部連接端
+   * 序列埠(serial port)：每次傳一個位元
+   * 平行埠(parallel port)：每次傳一組位元
+
+4. ISA、PCI、AGP
+5. PCI Express
+6. PCI Express
+7. USB (Universal Serial Bus；通用序列匯流排)
+8. IEEE 1394 
+* 高速序列匯流排的公定標準
+* Apple命名為FireWire，Sony稱它為i.Link
+* 提供隨插即用功能，提供個人電腦相容性的延伸介面，具有保證頻寬的傳輸模式，適用於消費性電子聲訊／視訊產品、儲存周邊及可攜式裝置
+* IEEE 1394的資料傳輸速度為每秒400 Mb，新版的IEEE 1394b規格，傳輸速度為每秒3.2 Gb
+
 
 ## 3-5 輸出入周邊設備
 
 ## 3-6 儲存裝置
+* [傳統硬碟 vs. 固態硬碟](https://buzzorange.com/techorange/2018/01/19/hdd-vs-ssd/)
+
+
+## 可參考影片:
+* [Inside Your Computer](https://www.youtube.com/watch?v=Q2hmuqS8bwM)
+* [Inside your computer - Bettina Bair](https://www.youtube.com/watch?v=AkFi90lZmXA)
+* [Computer Basics: Getting to Know Laptop Computers](https://www.youtube.com/watch?v=6LIv2ocJXRk&list=PLpQQipWcxwt-xhJVJs7MCcU-XzWYVsTQt&index=8)
+* [How computer memory works - Kanawat Senanan](https://www.youtube.com/watch?v=p3q5zWCw8J4)
